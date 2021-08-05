@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(7, 1, 20);
+    background-color: rgb(7, 1, 30);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,7 +11,7 @@ button{
     /* display: inline; */
     height: 55px;
     width: 165px;
-    border: 2px rgb(255, 136, 0) solid;
+    border: 2px rgb(255, 136, 10) solid;
     background-color: rgb(7, 1, 20);
     color: rgb(255, 136, 0);
     border-radius: 2px;
@@ -21,8 +21,8 @@ button{
 }
 
 button:hover{
-    box-shadow: 0px 0.5em 0.5em -0.4em yellow;
-    border: 2px yellow solid;
+    box-shadow: 0px 0.5em 0.5em -0.4em red;
+    border: 2px red solid;
     color: white;
     transform: translate(0px, -2px);
     border-radius: 2px;
